@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>PaathSaathi AI</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="https://cdn.botpress.cloud/webchat/v3.5/inject.js" defer></script>
-<script src="https://files.bpcontent.cloud/2026/02/06/08/20260206081444-HXQ5UE81.js" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <style>
     body {
       margin: 0;
@@ -13,53 +12,53 @@
       background: linear-gradient(135deg, #e3f2fd, #ffffff);
       min-height: 100vh;
       display: flex;
-      justify-content: center;
       align-items: center;
+      justify-content: center;
     }
 
     .card {
       background: #ffffff;
       width: 90%;
       max-width: 420px;
-      padding: 28px 24px;
+      padding: 28px 22px;
       border-radius: 18px;
-      box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+      box-shadow: 0 15px 40px rgba(0,0,0,0.12);
       text-align: center;
     }
 
     .logo {
-      font-size: 46px;
-      margin-bottom: 10px;
+      font-size: 48px;
+      margin-bottom: 8px;
     }
 
     h1 {
       margin: 8px 0;
+      font-size: 26px;
       color: #1565c0;
     }
 
-    p {
-      color: #444;
-      font-size: 16px;
-      line-height: 1.6;
-      margin: 10px 0;
+    .subtitle {
+      font-size: 15px;
+      color: #333;
+      margin-bottom: 12px;
     }
 
-    .tags {
-      margin-top: 14px;
-      font-size: 14px;
+    .languages {
       color: #2e7d32;
       font-weight: 600;
+      margin-bottom: 16px;
     }
 
-    .note {
+    .tagline {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .hint {
       margin-top: 18px;
       font-size: 13px;
-      color: #666;
-    }
-
-    /* ✅ BOT CHAT ALWAYS ON TOP */
-    .bp-webchat-container {
-      z-index: 9999 !important;
+      color: #777;
     }
   </style>
 </head>
@@ -68,24 +67,29 @@
 
   <div class="card">
     <div class="logo">📘</div>
+
     <h1>PaathSaathi AI</h1>
 
-    <p>
+    <div class="subtitle">
       Class 1–10 ke students ke liye<br>
       <b>NCERT-based Friendly AI Teacher</b>
-    </p>
+    </div>
 
-    <div class="tags">
+    <div class="languages">
       Hindi • Odia • English • Hinglish 😊
     </div>
 
-    <div class="note">
-      Poochho • Samjho • Seekho <br>
+    <div class="tagline">
+      Poochho • Samjho • Seekho<br>
       Bina dar, bina pressure 🙂
+    </div>
+
+    <div class="hint">
+      💬 Neeche chat icon dabao aur sawal poocho
     </div>
   </div>
 
-  <!-- ✅ BOTPRESS CHAT -->
+  <!-- ✅ Botpress Chat Bubble (DONO SCRIPT ZAROORI HAIN) -->
   <script src="https://cdn.botpress.cloud/webchat/v3.5/inject.js" defer></script>
   <script src="https://files.bpcontent.cloud/2026/02/06/20260206081444-HQX5UE81.js" defer></script>
 
